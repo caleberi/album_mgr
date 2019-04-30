@@ -1,0 +1,15 @@
+{
+  "name": "album_mgr",
+  "version": "1.1.0",
+  "description": "Album managing module",
+  "main": "./lib/albums.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caleberi"
+  },
+  "author": "ace",
+  "license": "ISC"
+}

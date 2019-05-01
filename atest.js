@@ -1,4 +1,4 @@
-var amgr = require('./album_mgr');
+var amgr = require('./lib/albums');
 
 amgr.albums('./',function(err,albums){
     if(err){
@@ -23,8 +23,5 @@ amgr.albums('./',function(err,albums){
             console.log("");
             iterator(index+1)
         })
-       
-        
-        
     })(0)
 })
